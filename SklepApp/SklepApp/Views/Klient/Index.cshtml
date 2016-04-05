@@ -1,0 +1,67 @@
+﻿@model IEnumerable<SklepApp.Models.Klient>
+
+@{
+    ViewBag.Title = "KlienciIndex";
+}
+<br /><br /><br /><br /><br />
+<h2>Lista stałych klientów</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.login)
+        </th>
+     
+        <th>
+            @Html.DisplayNameFor(model => model.imie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nazwisko)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.Adres.miasto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Znizka.znizka1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.login)
+        </td>
+     
+        <td>
+            @Html.DisplayFor(modelItem => item.imie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nazwisko)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.Adres.miasto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Znizka.znizka1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idKlient }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idKlient }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idKlient })
+        </td>
+    </tr>
+}
+
+</table>
