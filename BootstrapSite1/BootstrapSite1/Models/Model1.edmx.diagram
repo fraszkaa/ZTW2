@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a4e8dd3413b04eaebcba4278d789551e" Name="Diagram1">
+        <EntityTypeShape EntityType="ZTWModel.Administrator" Width="1.5" PointX="5.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZTWModel.Adres" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZTWModel.Kategoria" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZTWModel.Klient" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZTWModel.Pracownik" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZTWModel.Produkt" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZTWModel.Zdjecie" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZTWModel.Znizka" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="ZTWModel.FKKlient242107" ManuallyRouted="false" />
+        <AssociationConnector Association="ZTWModel.FKPracownik494420" ManuallyRouted="false" />
+        <AssociationConnector Association="ZTWModel.FKProdukt950014" ManuallyRouted="false" />
+        <AssociationConnector Association="ZTWModel.FKKlient982288" ManuallyRouted="false" />
+        <AssociationConnector Association="ZTWModel.FKPracownik234602" ManuallyRouted="false" />
+        <AssociationConnector Association="ZTWModel.FKProdukt498528" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
