@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed60ec743f6a4a14ab4dad282f82a410" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.Administrator" Width="1.5" PointX="5.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Adres" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Kategoria" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Klient" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Pracownik" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Produkt" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Zdjecie" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Znizka" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK_FKKlient242107" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_FKPracownik494420" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_FKProdukt950014" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_FKKlient982288" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_FKPracownik234602" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_FKProdukt498528" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
