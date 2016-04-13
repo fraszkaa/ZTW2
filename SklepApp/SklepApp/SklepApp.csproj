@@ -236,6 +236,7 @@
     <Content Include="App_Data\ZTW2_log.ldf">
       <DependentUpon>ZTW2.mdf</DependentUpon>
     </Content>
+    <Content Include="Baza\BazaDanych.mdf" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
